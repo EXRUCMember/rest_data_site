@@ -50,10 +50,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="32" selection-start="2741" selection-end="2741" vertical-scroll-proportion="0.66728973" vertical-offset="612" max-vertical-offset="1343">
+            <state line="72" column="32" selection-start="2741" selection-end="2741" vertical-scroll-proportion="-6.1923075" vertical-offset="808" max-vertical-offset="1343">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/ProductsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="1" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="1" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ctp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/products/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="8" selection-start="709" selection-end="709" vertical-scroll-proportion="0.68248177" vertical-offset="0" max-vertical-offset="548">
               <folding />
             </state>
           </provider>
@@ -75,6 +102,9 @@
         <option value="$PROJECT_DIR$/test1.html" />
         <option value="$PROJECT_DIR$/app/Config/core.php" />
         <option value="$PROJECT_DIR$/app/Config/database.php" />
+        <option value="$PROJECT_DIR$/app/Controller/ProductsController.php" />
+        <option value="$PROJECT_DIR$/app/Model/Product.php" />
+        <option value="$PROJECT_DIR$/app/View/products/index.ctp" />
       </list>
     </option>
   </component>
@@ -157,7 +187,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Config" />
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest_data_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest_data_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest_data_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest_data_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest_data_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest_data_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,7 +352,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="32" selection-start="2741" selection-end="2741" vertical-scroll-proportion="0.66728973" vertical-offset="612" max-vertical-offset="1343">
+        <state line="72" column="32" selection-start="2741" selection-end="2741" vertical-scroll-proportion="-6.1923075" vertical-offset="808" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/products/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="709" selection-end="709" vertical-scroll-proportion="0.68248177" vertical-offset="0" max-vertical-offset="548">
           <folding />
         </state>
       </provider>
