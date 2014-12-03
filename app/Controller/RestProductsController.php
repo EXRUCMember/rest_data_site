@@ -1,10 +1,65 @@
 <?php
 class RestProductsController extends AppController {
+    public $uses = array('Product');
+    public $helpers = array('Html', 'Form');
+    public $components = array('RequestHandler');
     public function index() {
         $product = $this->Product->find('all');
         $this->set(array(
-            'phones' => $product,
-            '_serialize' => array('phones')
+            'products' => $product,
+            '_serialize' => array('products')
+        ));
+
+    }
+
+
+    public function add() {
+        $this->Product->create();
+        if ($this->Product->save($this->request->data)) {
+            $message = 'Created';
+        } else {
+            $message = 'Error';
+        }
+        $this->set(array(
+            'message' => $message,
+            '_serialize' => array('message')
         ));
     }
+
+    public function view($id) {
+        $product = $this->Product->findById($id);
+        $this->set(array(
+            'product' => $product,
+            '_serialize' => array('product')
+        ));
+    }
+
+
+    public function edit($id) {
+        $this->Product->id = $id;
+        if ($this->Product->save($this->request->data)) {
+            $message = 'Saved';
+        } else {
+            $message = 'Error';
+        }
+        $this->set(array(
+            'message' => $message,
+            '_serialize' => array('message')
+        ));
+    }
+
+    public function delete($id) {
+        if ($this->Product->delete($id)) {
+            $message = 'Deleted';
+        } else {
+            $message = 'Error';
+        }
+        $this->set(array(
+            'message' => $message,
+            '_serialize' => array('message')
+        ));
+    }
+
+
+
 }
