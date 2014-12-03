@@ -36,7 +36,7 @@
  */
 	CakePlugin::routes();
 //In app/Config/routes.php...
-Router::mapResources('products');
+Router::mapResources(array('rest_categorys','rest_products'));
 Router::parseExtensions();
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use
