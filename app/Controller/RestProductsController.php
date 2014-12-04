@@ -3,6 +3,7 @@ class RestProductsController extends AppController {
     public $uses = array('Product');
     public $helpers = array('Html', 'Form');
     public $components = array('RequestHandler');
+
     public function index() {
         $product = $this->Product->find('all');
         $this->set(array(
@@ -11,7 +12,6 @@ class RestProductsController extends AppController {
         ));
 
     }
-
 
     public function add() {
         $this->Product->create();
@@ -26,13 +26,14 @@ class RestProductsController extends AppController {
         ));
     }
 
-    public function view($id) {
-        $product = $this->Product->findById($id);
+    public function view($c_id) {
+       $product =  $this->Product->getProduct($c_id);
         $this->set(array(
-            'product' => $product,
-            '_serialize' => array('product')
+            'products' => $product,
+            '_serialize' => array('products')
         ));
     }
+
 
 
     public function edit($id) {

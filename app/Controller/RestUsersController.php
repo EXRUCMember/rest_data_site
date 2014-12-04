@@ -1,20 +1,21 @@
 <?php
-class RestCategorysController extends AppController {
-    public $uses = array('Category');
+class RestUsersController extends AppController{
+    public $uses = array('User');
     public $helpers = array('Html', 'Form');
     public $components = array('RequestHandler');
 
-    public function index() {
-        $category = $this->Category->find('all');
-        $this->set(array(
-            'categories' => $category,
-            '_serialize' => array('categories')
-        ));
 
+    public function index() {
+        $users = $this->User->find('all');
+        $this->set(array(
+            'users' => $users,
+            '_serialize' => array('users')
+        ));
     }
+
     public function add() {
-        $this->Category->create();
-        if ($this->Category->save($this->request->data)) {
+        $this->User->create();
+        if ($this->User->save($this->request->data)) {
             $message = 'Created';
         } else {
             $message = 'Error';
@@ -26,16 +27,17 @@ class RestCategorysController extends AppController {
     }
 
     public function view($id) {
-        $category = $this->Category->findById($id);
+        $user = $this->User->findById($id);
         $this->set(array(
-            'category' => $category,
-            '_serialize' => array('category')
+            'phone' => $user,
+            '_serialize' => array('phone')
         ));
     }
 
+
     public function edit($id) {
-        $this->Category->id = $id;
-        if ($this->Category->save($this->request->data)) {
+        $this->User->id = $id;
+        if ($this->User->save($this->request->data)) {
             $message = 'Saved';
         } else {
             $message = 'Error';
@@ -47,7 +49,7 @@ class RestCategorysController extends AppController {
     }
 
     public function delete($id) {
-        if ($this->Category->delete($id)) {
+        if ($this->User->delete($id)) {
             $message = 'Deleted';
         } else {
             $message = 'Error';
@@ -57,7 +59,4 @@ class RestCategorysController extends AppController {
             '_serialize' => array('message')
         ));
     }
-
-
-
 }
