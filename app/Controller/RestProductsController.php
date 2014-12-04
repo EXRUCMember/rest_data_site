@@ -34,8 +34,6 @@ class RestProductsController extends AppController {
         ));
     }
 
-
-
     public function edit($id) {
         $this->Product->id = $id;
         if ($this->Product->save($this->request->data)) {

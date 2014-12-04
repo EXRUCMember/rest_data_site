@@ -35,16 +35,7 @@
       <file leaf-file-name="RestProductsController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Controller/RestProductsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="1.0" vertical-offset="60" max-vertical-offset="1207">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1772" selection-end="1772" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="63" column="1" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.8093458" vertical-offset="638" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -55,9 +46,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="1" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
               <folding>
-                <marker date="1417659531877" expanded="true" signature="106:150" placeholder="SELECT * FRO..products..." />
-                <marker date="1417659531877" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
-                <marker date="1417659531877" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
+                <marker date="1417661282671" expanded="true" signature="106:150" placeholder="SELECT * FRO..products..." />
+                <marker date="1417661282671" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
+                <marker date="1417661282671" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
               </folding>
             </state>
           </provider>
@@ -98,8 +89,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-65" />
-    <option name="y" value="17" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -318,11 +309,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-65" y="17" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -411,9 +402,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="1" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
           <folding>
-            <marker date="1417659531877" expanded="true" signature="106:150" placeholder="SELECT * FRO..products..." />
-            <marker date="1417659531877" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
-            <marker date="1417659531877" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:150" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
           </folding>
         </state>
       </provider>
@@ -473,9 +464,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="1" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
           <folding>
-            <marker date="1417659531877" expanded="true" signature="106:150" placeholder="SELECT * FRO..products..." />
-            <marker date="1417659531877" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
-            <marker date="1417659531877" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:150" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
           </folding>
         </state>
       </provider>
@@ -587,16 +578,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="1" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
           <folding>
-            <marker date="1417659531877" expanded="true" signature="106:150" placeholder="SELECT * FRO..products..." />
-            <marker date="1417659531877" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
-            <marker date="1417659531877" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:150" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
+            <marker date="1417661282671" expanded="true" signature="106:143" placeholder="SELECT * FRO..products..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/RestProductsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="1.0" vertical-offset="60" max-vertical-offset="1207">
+        <state line="63" column="1" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.8093458" vertical-offset="638" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
