@@ -26,11 +26,18 @@ class RestProductsController extends AppController {
         ));
     }
 
-    public function view($c_id) {
+    public function viewPro($c_id) {
        $product =  $this->Product->getProduct($c_id);
         $this->set(array(
             'products' => $product,
             '_serialize' => array('products')
+        ));
+    }
+    public function view($id) {
+        $product =  $this->Product->findById($id);
+        $this->set(array(
+            'product' => $product,
+            '_serialize' => array('product')
         ));
     }
 
